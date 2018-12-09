@@ -60,9 +60,9 @@ if (module.hot && typeof module.hot.dispose === 'function') {
 // Connect to WebpackDevServer via a socket.
 var connection = new SockJS(
   url.format({
-    protocol: window.location.protocol,
-    hostname: window.location.hostname,
-    port: window.location.port,
+    protocol: process.env.WDS_PATH || window.location.protocol,
+    hostname: process.env.WDS_HOSTNAME || window.location.hostname,
+    port: process.env.WDS_PORT || window.location.port,
     // Hardcoded in WebpackDevServer
     pathname: '/sockjs-node',
   })
