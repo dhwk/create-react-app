@@ -3,7 +3,7 @@
 Create React apps with no build configuration.
 
 - [Creating an App](#creating-an-app) – How to create a new app.
-- [User Guide](https://facebook.github.io/create-react-app/docs/folder-structure) – How to develop apps bootstrapped with Create React App.
+- [User Guide](https://facebook.github.io/create-react-app/) – How to develop apps bootstrapped with Create React App.
 
 Create React App works on macOS, Windows, and Linux.<br>
 If something doesn’t work, please [file an issue](https://github.com/facebook/create-react-app/issues/new).
@@ -163,7 +163,7 @@ Create React App is a great fit for:
 - **Starting new single-page React applications.**
 - **Creating examples** with React for your libraries and components.
 
-Here are few common cases where you might want to try something else:
+Here are a few common cases where you might want to try something else:
 
 - If you want to **try React** without hundreds of transitive build tool dependencies, consider [using a single HTML file or an online sandbox instead](https://reactjs.org/docs/try-react.html).
 
